@@ -23,6 +23,12 @@ header h1 {
 
 nav {
     margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* or center, depending on your preference */
+    gap: 16px;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 nav a {
@@ -72,30 +78,3 @@ a {
     color: white;
     text-decoration: underline;
 }
-
-* {
-    box-sizing: border-box;
-  }
-  
-  @media (max-width: 600px) {
-    nav {
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-    }
-    nav a {
-      margin-bottom: 8px;
-      font-size: 1.1em;
-    }
-    .experience {
-      padding: 10px;
-      font-size: 1em;
-    }
-    main, section {
-      padding: 8px;
-    }
-    footer p {
-      font-size: 0.95em;
-      word-break: break-all;
-    }
-  }
