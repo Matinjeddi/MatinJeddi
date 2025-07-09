@@ -23,12 +23,6 @@ header h1 {
 
 nav {
     margin-bottom: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center; /* or center, depending on your preference */
-    gap: 16px;
-    overflow-x: auto;
-    white-space: nowrap;
 }
 
 nav a {
