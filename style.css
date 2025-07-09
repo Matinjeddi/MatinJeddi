@@ -80,7 +80,7 @@ a {
   @media (max-width: 600px) {
     nav {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       align-items: flex-start;
     }
     nav a {
